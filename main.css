@@ -19,7 +19,7 @@
   padding: 15px;
   font-family: 'EB Garamond', serif;
   font-size: 15px;
-  height: 95vh;
+  height: 92vh;
   min-height: 470px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -30,7 +30,7 @@
           flex-direction: column;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 @media screen and (min-width: 640px) {
