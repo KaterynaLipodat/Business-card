@@ -281,6 +281,10 @@
           transform: rotate(314deg);
 }
 
+.btn-skills:hover {
+  background-color: black;
+}
+
 .page2 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -299,7 +303,7 @@
   }
 }
 
-.skills-h {
+.skills-h, .contacts {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -310,6 +314,8 @@
   font-size: 28px;
   font-weight: 600;
   color: black;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
 .skills-card {
@@ -373,6 +379,11 @@
   border-left: 3px solid black;
   -webkit-transform: translateY(2px) rotate(45deg);
           transform: translateY(2px) rotate(45deg);
+}
+
+.contacts:hover {
+  -webkit-transform: translateY(-10%);
+          transform: translateY(-10%);
 }
 
 .card_info_h1::-moz-selection, .card_info_h2::-moz-selection, .card-social_icon_text::-moz-selection, .btn-skills::-moz-selection {
