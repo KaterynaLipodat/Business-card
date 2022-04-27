@@ -288,6 +288,7 @@
 }
 
 .page2 {
+  display: none;
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
